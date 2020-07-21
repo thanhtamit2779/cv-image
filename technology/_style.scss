@@ -1,0 +1,14 @@
+.section-technology {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 2px;
+    overflow: hidden;
+}
+
+.section-technology-item {
+    @include calc(height, '100vh/3');
+    width: 100%;
+    overflow: hidden;
+    background: rgba($color-grey, 1);
+    margin: 0;
+}
